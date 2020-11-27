@@ -1,0 +1,142 @@
+<heml>
+  <head>
+    <subject>Example 2</subject>
+    <style>
+			body { background: #F5F6F6; font-family: arial; text-align: center;}
+			h1 { color: white; text-align: center; font-size: 30px; font-weight: bold; font-family: arial;
+			
+			 }
+			h2 { color: white; text-align: center; font-size: 18px; font-weight: bold; font-family: arial; }
+			a {color:green; text-decoration: none; }
+			a.footer {color:white; text-decoration: none }
+      button { background: orange; font-size: 24px; font-weight: bold; font-family: Arial, sans-serif; color: white; padding: 20px 20px; }			
+			container#footer {
+			margin-top:40px;
+				background-color: #319AE7;}
+				.mail{
+				font-size:14px; 
+				color:white;
+				text-align:center;
+				display: flex;
+				align-items: center;
+        height: 46px;
+        justify-content: center;
+				}
+				.address
+				{
+				 height: 46px;
+				 background-color:#F5F6F6;
+				 font-size:10px;
+				 text-align:center;
+				 color:#B3B3B2;
+				 line-height:14px;
+				 width:100%;
+				 }
+h3{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    }
+			.banner{
+			padding-top:0px;
+			min-height:360px;
+			background-color: #244854;
+			width:100%;
+			height:200px;
+			}
+			.title{
+			text-align:left;
+			color:white;
+			margin:20px;
+			}
+			.description{
+			color:white;
+			font-size:12px;
+			width:370px;
+			margin:0 auto;
+			}
+			p.footer {text-align: center; font-size: 12px; font-family: Arial, sans-serif; color: white; }
+			p.footer_title  {text-align: center; font-size: 24px; font-weight: bold; font-family: Georgia, Times, serif; color: white; }
+			.button {
+  background-color: #115D95;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 50px auto;
+  margin-top:30px;
+  cursor: pointer;
+  border-radius:40px;
+  outline: none;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:bold;
+}
+.content-title{
+      text-align:left;
+      width:100%;
+      color:#7A6B5D;
+}
+	.content-description{
+			text-align:left;
+			font-size:12px;
+			color:#B0ACA9;
+			}
+.footer-line{
+      width:100%;
+      height:1px;
+      background:#B0ACA9;
+}
+.main{
+background-color:white;
+}
+#footer{
+backgound-color:#F5F6F6;
+width:290px;
+}
+.item{
+padding:0 20px;
+padding-top:46px;
+}
+		</style>
+  </head>
+  <body>
+    <container class="main">
+			<row>
+			<column class="banner">
+			<img src="https://cdn4.iconfinder.com/data/icons/digital-marketing-gradient-rave-and-glow/512/Email-512.png" style="width:100px;margin:0 auto;" />
+		<h1>Welcome to Mokus Kft!</h1>
+	
+			</column>
+			</row>
+			<row>
+			<column class="item">
+			<img style="width:200px; float:left; margin-right:25px" src="https://499ioen9wh92k2blb3elevg9-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/Canva-Online-Shopping-Add-to-Cart-Online-Order-Store-buy-Sale-Digital-Online-ecommerce-Marketing.jpg" />
+			<h3 class="content-title">Online stores</h3>
+			<p class="content-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+			</column>
+			</row>
+				<row>
+			<column class="item">
+			<img style="width:200px; float:left; margin-right:25px" src="https://i.ytimg.com/vi/QQ5ZjDB88rI/maxresdefault.jpg" />
+			<h3 class="content-title">Binpress Marketplace</h3>
+			<p class="content-description">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets</p>
+			</column>
+			</row>				<row>
+			<column class="mail">
+			    Contact: info@binpress.com
+			</column>
+			</row>
+				
+    </container>
+    <container id="footer">
+<row>
+			<column class="address">
+			Binpress Inc., The Marketplace For Free and COmmercial Code 2483 Old Middlefield Way #209, Mountain View, CA 94043-2330
+				</column>
+			</row>
+   </container>
+  </body>
+</heml>
